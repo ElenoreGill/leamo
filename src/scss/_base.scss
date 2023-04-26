@@ -42,3 +42,30 @@ video {
 /* ====================================
 // base rules
 // ==================================== */
+
+body {
+  font-family: "SF Pro Display", sans-serif;
+  font-size: 25px;
+  color: #ffffff;
+  letter-spacing: 0.97px;
+}
+
+ul {
+  list-style: none;
+}
+
+h1 {
+  font-family: "Coolvetica", sans-serif;
+  font-size: 130px;
+  color: #ff6800;
+  letter-spacing: 0;
+  line-height: 124px;
+}
+
+h2 {
+  font-family: "Coolvetica", sans-serif;
+  font-size: 75px;
+  color: #ffffff;
+  letter-spacing: 2.91px;
+  text-align: center;
+}
