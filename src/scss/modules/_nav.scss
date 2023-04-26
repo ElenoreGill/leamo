@@ -1,0 +1,23 @@
+nav {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  margin-top: 10px;
+  margin-left: 0px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 20px;
+  color: #ffffff;
+  letter-spacing: 0.97px;
+  text-align: center;
+}
+.nav-logo {
+  font-family: "Coolvetica", sans-serif;
+  font-size: 30px;
+  color: #ffffff;
+  letter-spacing: 1.75px;
+  font-weight: 400;
+  margin-left: 20px;
+}
