@@ -49,7 +49,12 @@ body {
   color: #ffffff;
   letter-spacing: 0.97px;
 }
-
+@media (max-width: 800px) {
+  body {
+    font-size: 14.5px;
+    text-align: left;
+  }
+}
 ul {
   list-style: none;
 }
@@ -61,6 +66,13 @@ h1 {
   letter-spacing: 0;
   line-height: 124px;
 }
+@media (max-width: 800px) {
+  h1 {
+    font-size: 62px;
+    letter-spacing: 0;
+    line-height: 75px;
+  }
+}
 
 h2 {
   font-family: "Coolvetica", sans-serif;
@@ -69,15 +81,20 @@ h2 {
   letter-spacing: 2.91px;
   text-align: center;
 }
+@media (max-width: 800px) {
+  h2 {
+    font-size: 35px;
+  }
+}
 
-// .row + .row {
-//   margin-top: 16px;
-// }
+.row + .row {
+  margin-top: 16px;
+}
 
-// .row > .col,
-// .row > [class^="col-"] {
-//   padding-top: 12px;
-//   padding-bottom: 12px;
-//   background-color: rgba(86, 61, 124, 0.15);
-//   border: 1px solid rgba(86, 61, 124, 0.2);
-// }
+.row > .col,
+.row > [class^="col-"] {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  background-color: rgba(86, 61, 124, 0.15);
+  border: 1px solid rgba(86, 61, 124, 0.2);
+}

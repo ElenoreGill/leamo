@@ -5,6 +5,11 @@ nav {
   margin-top: 20px;
   margin-left: 0px;
 }
+@media (max-width: 800px) {
+  .nav-grand {
+    display: none;
+  }
+}
 
 a {
   text-decoration: none;

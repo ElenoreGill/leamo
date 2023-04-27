@@ -4,9 +4,16 @@
   padding: 50px 170px;
 }
 .article p {
-  padding-top: 30px;
+  padding: 50px;
+}
+@media (max-width: 800px) {
+  .article {
+    padding: 25px 90px;
+    height: 50%;
+  }
 }
 
-.valeur-container {
+.article-valeur-container {
   background-color: #fac92c;
+  height: 100%;
 }
