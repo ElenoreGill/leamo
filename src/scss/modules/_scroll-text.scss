@@ -23,3 +23,8 @@
     transform: translateX(-375px);
   }
 }
+@media (min-width: 800px) {
+  .scroll-text-nav {
+    display: none;
+  }
+}

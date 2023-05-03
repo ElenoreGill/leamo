@@ -8,6 +8,7 @@ button {
   letter-spacing: 1.16px;
   text-align: center;
   margin: auto;
+  display: flex;
 }
 
 button p {
@@ -18,4 +19,9 @@ button p {
 .article-button-container {
   background-color: #f49aae;
   height: 158px;
+}
+
+.article-button {
+  padding: 30px, 10px;
+  align-content: center;
 }

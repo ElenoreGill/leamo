@@ -52,11 +52,7 @@ body {
 @media (max-width: 800px) {
   body {
     font-size: 14.5px;
-    text-align: left;
   }
-}
-ul {
-  list-style: none;
 }
 
 h1 {
@@ -85,6 +81,10 @@ h2 {
   h2 {
     font-size: 35px;
   }
+}
+
+p {
+  text-align: left;
 }
 
 .row + .row {
