@@ -82,6 +82,18 @@ h2 {
     font-size: 35px;
   }
 }
+h3 {
+  font-family: "Coolvetica", sans-serif;
+  font-size: 175px;
+  color: #000000;
+  letter-spacing: 2px;
+  font-weight: bold;
+}
+@media (max-width: 800px) {
+  h3 {
+    font-size: 70px;
+  }
+}
 
 p {
   text-align: left;
