@@ -1,0 +1,13 @@
+.l-square{
+  position: relative;
+}
+
+.l-square::before{
+  content:"";
+  display: block;
+  padding-top: 100%;
+}
+.l-square-insert{
+  position: absolute;
+  inset: 0;
+}
