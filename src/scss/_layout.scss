@@ -1,13 +1,20 @@
-.l-square{
+.l-square {
   position: relative;
 }
 
-.l-square::before{
-  content:"";
+.l-square::before {
+  content: "";
   display: block;
   padding-top: 100%;
 }
-.l-square-insert{
+.l-square-insert {
   position: absolute;
   inset: 0;
+  overflow: scroll;
+}
+@media (min-width: 800px) {
+  .l-square::before {
+    display: inline;
+    padding-top: 0%;
+  }
 }
