@@ -14,6 +14,11 @@
   font-size: 20px;
   letter-spacing: 0.78px;
 }
+.nav-grand,
+a {
+  padding-right: 10px;
+}
+
 @keyframes scroll-text-nav {
   from {
     transform: translateX(375px);
