@@ -17,14 +17,12 @@ h5 {
   }
 }
 
-footer,
-a {
+footer a {
   font-size: 23px;
   color: #000000;
 }
 @media (max-width: 800px) {
-  footer,
-  a {
+  footer a {
     font-size: 12px;
   }
 }

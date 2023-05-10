@@ -10,6 +10,10 @@
       rel="stylesheet"
     />
     <link href="https://fonts.cdnfonts.com/css/coolvetica-2" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
   </head>
   <body>
     <header>
@@ -73,7 +77,7 @@
     <div class="article-valeur">
       <div class="container">
         <div class="row">
-          <div class="col-6">
+          <div class="col-12 col-md-6">
             <p class="article-valeurs-titre">Nos valeurs</p>
             <p>
               Les recettes aux saveurs surprenantes sont réalisées avec des
@@ -86,7 +90,7 @@
               détente en solo.
             </p>
           </div>
-          <div class="col-6">
+          <div class="col-12 order-1 col-md-6">
             <img src="./img/thé-vert.webp" alt="bouteille de leamo" />
           </div>
         </div>
@@ -96,9 +100,11 @@
       <div class="container">
         <div class="row">
           <div class="col-12">
-            <button class="article-button">
-              <p>Points de ventes</p>
-            </button>
+            <div class="article-button-padding">
+              <button class="article-button">
+                <p>Points de ventes</p>
+              </button>
+            </div>
           </div>
         </div>
       </div>
@@ -118,18 +124,36 @@
               <div class="swiper-wrapper">
                 <div class="swiper-slide">
                   <img src="./img/cola.webp" alt="bouteille de leamo" />
-                  <p>Leamo, coca cola Bio</p>
+                  <p><b>Leamo, coca cola Bio</b> 4,95</p>
+                  <p>cola, beans, black stuff</p>
                 </div>
                 <div class="swiper-slide">
                   <img src="./img/the-noir.webp" alt="bouteille de leamo" />
+                  <p><b>Leamo, thé + limonade</b>4,95</p>
+                  <p>Water, leaves, peaches</p>
                 </div>
                 <div class="swiper-slide">
                   <img src="./img/ginger.webp" alt="bouteille de leamo" />
+                  <p><b>Leamo, Ginger beer bio</b>4,95</p>
+                  <p>Ginger, beer, more ginger</p>
                 </div>
               </div>
               <div class="swiper-pagination"></div>
               <div class="swiper-button-prev"></div>
               <div class="swiper-button-next"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="article-button-container-2">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="article-button-padding">
+              <button class="article-button">
+                <p>Achetez ici</p>
+              </button>
             </div>
           </div>
         </div>
@@ -166,5 +190,6 @@
       </div>
     </footer>
     <script src="js/main.js" type="module"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
   </body>
 </html>
