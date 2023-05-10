@@ -10,11 +10,11 @@
 .l-square-insert {
   position: absolute;
   inset: 0;
-  overflow: scroll;
+  overflow: auto;
+  scrollbar-width: thin;
 }
 @media (min-width: 800px) {
   .l-square::before {
-    display: inline;
-    padding-top: 0%;
+    position: static;
   }
 }
