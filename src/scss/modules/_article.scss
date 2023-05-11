@@ -18,10 +18,23 @@
   letter-spacing: 1.8px;
   padding: 50px 0 20px 0;
 }
-
+@media (max-width: 800px) {
+  .article-valeurs-titre {
+    padding-top: 10%;
+    padding-bottom: 10px;
+    padding-left: 20px;
+  }
+}
 .article-valeur {
   background-color: #fac92c;
   height: 50%;
+}
+@media (max-width: 800px) {
+  .article-valeurs-body {
+    padding-bottom: 25%;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
 }
 
 .article-button-padding {
