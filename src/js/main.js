@@ -30,6 +30,6 @@ const swiper = new Swiper(".swiper-container", {
 
     disableOnInteraction: false,
   },
-  slidesPerView: 3,
+  slidesPerView: 2.5,
   spaceBetween: 0,
 });
