@@ -35,3 +35,13 @@ footer a {
   border-left: 4px solid rgb(0, 0, 0);
   padding-left: 30px;
 }
+@media (max-width: 800px) {
+  .line-container {
+    padding-left: 10px;
+  }
+}
+@media (max-width: 800px) {
+  .media {
+    max-height: 20px;
+  }
+}

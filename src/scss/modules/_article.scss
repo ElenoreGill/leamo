@@ -84,3 +84,11 @@
 .article-recette-ingredients-title {
   padding-left: 30px;
 }
+.article-recette-ingredients-2 {
+  padding-bottom: 30px;
+}
+@media (max-width: 800px) {
+  .article-recette-ingredients-2 {
+    display: none;
+  }
+}
