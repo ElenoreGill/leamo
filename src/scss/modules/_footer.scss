@@ -3,6 +3,7 @@ footer {
   background-size: cover;
   height: 702px;
   width: 100%;
+  margin-top: auto;
 }
 
 h5 {
@@ -30,17 +31,7 @@ footer a {
 .footer-center {
   padding-top: 20%;
 }
-// .line {
-//   border-left: 4px solid rgb(0, 0, 0);
-//   height: 250px;
-//   position: absolute;
-//   left: 45%;
-//   margin-left: -3px;
-//   bottom: -325%;
-// }
-// @media (max-width: 800px) {
-//   .line {
-//     bottom: -240%;
-//     left: 50%;
-//   }
-// }
+.line-container {
+  border-left: 4px solid rgb(0, 0, 0);
+  padding-left: 30px;
+}

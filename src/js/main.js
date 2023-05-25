@@ -22,7 +22,7 @@ const swiper = new Swiper(".swiper-container", {
   navigation: {
     nextEl: ".swiper-pagination",
 
-    prevEl: ".swiper-pagination",
+    prevEl: ".swiper-pagination-prev",
   },
 
   autoplay: {

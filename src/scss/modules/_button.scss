@@ -19,15 +19,21 @@ button p {
 .article-button-container {
   background-color: #f49aae;
   height: 158px;
+  padding-top: 50px;
 }
 .article-button-container-2 {
   background-color: #0e90cf;
   height: 158px;
+  padding-top: 50px;
 }
 .article-button {
   padding: 30px, 10px;
   align-content: center;
 }
 button:hover {
+  border: 3px solid black;
+}
+
+.swiper-pagination-prev {
   border: 3px solid black;
 }

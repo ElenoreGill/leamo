@@ -36,7 +36,7 @@
 }
 @media (max-width: 800px) {
   .article-valeurs-body {
-    padding-bottom: 25%;
+    padding-bottom: 15%;
     padding-left: 60px;
     padding-right: 60px;
   }
@@ -51,5 +51,35 @@
   font-size: 45px;
   color: #ffffff;
   letter-spacing: 1.75px;
-  padding: 50px 0 20px 50px;
+  padding: 50px 0 20px 30px;
+}
+
+.article-recette-ingredients {
+  padding-bottom: 30px;
+}
+.article-recette-howto {
+  padding-top: 100px;
+}
+@media (max-width: 800px) {
+  .article-recette-ingredients {
+    padding-left: 30px;
+  }
+}
+@media (max-width: 800px) {
+  .article-recette-howto {
+    padding-top: 10px;
+    padding-left: 30px;
+  }
+}
+.article-recette-howto-title {
+  padding-top: 190px;
+  padding-left: 30px;
+}
+@media (max-width: 800px) {
+  .article-recette-howto-title {
+    padding-top: 10px;
+  }
+}
+.article-recette-ingredients-title {
+  padding-left: 30px;
 }

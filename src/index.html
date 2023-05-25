@@ -20,7 +20,9 @@
       <div class="container">
         <div class="row">
           <div class="col-2">
-            <a class="nav-logo" href="https://leamo.fr"> Leamo</a>
+            <div class="logo-container">
+              <a class="nav-logo" href="https://leamo.fr"> Leamo</a>
+            </div>
           </div>
           <div class="col-10">
             <nav class="nav-grand">
@@ -64,7 +66,7 @@
         offre et à vendre ses produits au-delà des frontières françaises.
       </p>
     </div>
-    <div class="article-valeur">
+    <div class="article-valeur" id="valeurs">
       <div class="row">
         <div class="col-12 col-md-6">
           <p class="article-valeurs-titre">Nos valeurs</p>
@@ -90,20 +92,14 @@
           <div class="col-12">
             <div class="article-button-padding">
               <button class="article-button">
-                <p>Points de ventes</p>
+                <p id="points-de-vente">Points de ventes</p>
               </button>
             </div>
           </div>
         </div>
       </div>
     </div>
-    <div class="container">
-      <div class="row">
-        <div class="col-12">
-          <h3 class="scroll-text-h3">BEST SELLERS</h3>
-        </div>
-      </div>
-    </div>
+    <h3 class="scroll-text-h3" id="best-seller">BEST SELLERS</h3>
     <div class="carousel">
       <div class="swiper-container">
         <div class="swiper-wrapper">
@@ -134,7 +130,7 @@
           <div class="col-12">
             <div class="article-button-padding">
               <button class="article-button">
-                <p>Achetez ici</p>
+                <p id="acheter">Achetez ici</p>
               </button>
             </div>
           </div>
@@ -143,28 +139,35 @@
     </div>
     <div class="article-recette">
       <div class="row">
-        <div class="col-12 col-md-6">
-          <p class="article-recette-titre">Recette du mois</p>
-          <p class="article-recette-body">Ingrédients</p>
+        <div class="col-12">
+          <p class="article-recette-titre" id="recette">Recette du mois</p>
+        </div>
+        <div class="col-md-2 col-sm-4">
+          <p class="article-recette-ingredients-title">Ingrédients</p>
+          <p class="article-recette-howto-title">Recette</p>
+        </div>
+        <div class="col-md-2 col-sm-4">
           <p class="article-recette-ingredients">
             1 Citron <br />
             2 floobles<br />
             1 bloo
           </p>
-          <p>
-            3.5 biks<br />
-            2 zafels<br />
-            2 eekies
-          </p>
-          <p>Recette</p>
-          <p>
+          <p class="article-recette-howto">
             Mélangez 50 m de tegula. 25 ml de jus de citron vert et 2b ml de
             triple sec dans un shaker avec des glacons Adrez vooureusement er
             versez dans un verre a bord. Dégustez avec une tranche de citron
             comme garniture.
           </p>
         </div>
-        <div class="col-12 order-1 col-md-6">
+        <div class="col-md-2 col-sm-4">
+          <p class="article-recette-ingredients">
+            3.5 biks<br />
+            2 zafels<br />
+            2 eekies
+          </p>
+        </div>
+
+        <div class="col-12 col-md-6">
           <img src="./img/cocktail.png" alt="photo cocktail" />
         </div>
       </div>
@@ -177,19 +180,22 @@
               <img src="./img/Leamo-logo.svg" alt="logo-limo" />
             </div>
             <div class="col-3">
-              <div class="line"></div>
-              <h5>Support</h5>
-              <a href="https://www.alterfood.fr/" target="_blank">AlterFood</a>
-              <br />
-              <a href="mailto:hello(@)alterfood.fr">Écrivez-nous</a>
-              <a
-                href="https://entreprendre.service-public.fr/vosdroits/F31228#:~:text=Les%20mentions%20l%C3%A9gales%20sont%20les,ou%20dans%20une%20page%20d%C3%A9di%C3%A9e."
-                target="_blank"
-                >Mentions légales</a
-              >
+              <div class="line-container">
+                <h5>Support</h5>
+                <a href="https://www.alterfood.fr/" target="_blank"
+                  >AlterFood</a
+                >
+                <br />
+                <a href="mailto:hello(@)alterfood.fr">Écrivez-nous</a>
+                <a
+                  href="https://entreprendre.service-public.fr/vosdroits/F31228#:~:text=Les%20mentions%20l%C3%A9gales%20sont%20les,ou%20dans%20une%20page%20d%C3%A9di%C3%A9e."
+                  target="_blank"
+                  >Mentions légales</a
+                >
+              </div>
             </div>
             <div class="col-3">
-              <h5>Contact</h5>
+              <h5 id="contact">Contact</h5>
               <a href="https://fr.linkedin.com/" target="_blank">
                 <img src="./img/linkedin.svg" alt="linkedin" />
               </a>
